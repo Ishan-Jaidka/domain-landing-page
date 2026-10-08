@@ -1,25 +1,69 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>jaidka.dev</title>
+    <meta
+      name="description"
+      content="A small directory of deployed tools and projects. Find your way around jaidka.dev."
+    />
+    <meta name="theme-color" content="#20242c" />
+    <title>jaidka.dev — Sites &amp; projects</title>
+    <link
+      rel="preload"
+      href="assets/fonts/inter-latin-variable.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
     <link rel="stylesheet" href="styles.css" />
     <link rel="icon" href="favicon/favicon.ico" type="image/x-icon" />
+    <script src="script.js" defer></script>
   </head>
   <body>
-    <img
-      src="favicon/android-chrome-192x192.png"
-      alt="Jaidka.dev Logo"
-      class="logo"
-    />
-    <div class="container">
-      <h1>Welcome to jaidka.dev</h1>
-      <p>Explore my projects:</p>
-      <div id="links" class="links"></div>
-      <!-- Links will be inserted here -->
-      <footer>© jaidka.dev</footer>
+    <a class="skip-link" href="#directory">Skip to projects</a>
+    <div class="page">
+      <header class="masthead">
+        <span class="identity">Jaidka</span>
+        <span class="eyebrow">A personal directory</span>
+      </header>
+      <main>
+        <section class="intro" aria-labelledby="site-title">
+          <h1 id="site-title">
+            jaidka<span class="wordmark-suffix">.dev</span>
+          </h1>
+          <p>
+            Here you'll find small tools and things I've built along the way.
+          </p>
+        </section>
+        <section
+          id="directory"
+          class="directory"
+          aria-labelledby="directory-title"
+          tabindex="-1"
+        >
+          <div class="section-heading">
+            <h2 id="directory-title">Sites &amp; projects</h2>
+            <span class="eyebrow"
+              >Explore below <span aria-hidden="true">↓</span></span
+            >
+          </div>
+          <p id="directory-status" class="status" role="status" hidden>
+            Loading projects…
+          </p>
+          <ul id="links" class="links" aria-label="Sites and projects"></ul>
+          <noscript
+            ><p class="status">
+              Enable JavaScript to view the directory, or open
+              <a href="links.json">the project list</a>.
+            </p></noscript
+          >
+        </section>
+      </main>
+      <footer>
+        <span>Made by Ishan Jaidka</span>
+        <span class="footer-domain">jaidka.dev</span>
+      </footer>
     </div>
-    <script src="script.js"></script>
   </body>
 </html>

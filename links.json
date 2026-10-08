@@ -1,6 +1,27 @@
 [
-  { "name": "Ishan's Portfolio", "url": "https://ishan.jaidka.dev" },
-  { "name": "Ski DIN Calculator", "url": "https://ski-din-calc.jaidka.dev" },
-  { "name": "Govee", "url": "https://govee.jaidka.dev" },
-  { "name": "Adventure Game", "url": "https://adventuregame.jaidka.dev" }
+  {
+    "name": "Ishan's Portfolio",
+    "url": "https://ishan.jaidka.dev",
+    "description": "My work, experience, and a little about me."
+  },
+  {
+    "name": "Ski DIN Calculator",
+    "url": "https://ski-din-calc.jaidka.dev",
+    "description": "A handy tool for calculating ski binding DIN settings."
+  },
+  {
+    "name": "Govee",
+    "url": "https://govee.jaidka.dev",
+    "description": "Experiments with Govee and connected lighting."
+  },
+  {
+    "name": "Adventure Game",
+    "url": "https://adventuregame.jaidka.dev",
+    "description": "A browser-based adventure to explore."
+  },
+  {
+    "name": "Ishan's Old Portfolio",
+    "url": "https://old.ishan.jaidka.dev",
+    "description": "My old portfolio site, which is still up for posterity."
+  }
 ]
